@@ -10,7 +10,7 @@
  */
 int get_width(const char *format, int *j, va_list lst)
 {
-	int curr_;
+	int curr_j;
 	int width = 0;
 
 	for (curr_j = *j + 1; format[curr_j] != '\0'; curr_j++)
